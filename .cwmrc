@@ -1,0 +1,61 @@
+sticky yes
+snapdist 4
+gap 0 0 0 0
+moveamount 10
+borderwidth 2
+fontname "PxPlusIBMVGA8:pixelsize=16"
+
+color menubg "#0B0d0d"
+color menufg "#99ccbf"
+color urgencyborder "#e6a1a1"
+color groupborder "#a1c8e6"
+color ungroupborder "#e8c2a2"
+color inactiveborder "#192626"
+color activeborder "#99ccbf"
+color font "#99ccbf"
+
+unbind-key all
+
+bind-key M-Return "urxvt"
+bind-key M-b "librewolf"
+bind-key M-q window-delete
+bind-key MS-q quit
+bind-key MS-e lock
+bind-key MS-r restart
+bind-key M-d menu-exec
+bind-key M-m window-fullscreen
+bind-key M-n window-maximize
+bind-key M-w window-vtile
+bind-key MS-Tab window-cycle
+bind-key M-Tab group-cycle
+
+## group
+bind-key M-1 group-only-1
+bind-key M-2 group-only-2
+bind-key M-3 group-only-3
+bind-key M-4 group-only-4
+bind-key M-5 group-only-5
+bind-key M-6 group-only-6
+bind-key MS-1 window-movetogroup-1
+bind-key MS-2 window-movetogroup-2
+bind-key MS-3 window-movetogroup-3
+bind-key MS-4 window-movetogroup-4
+bind-key MS-5 window-movetogroup-5
+bind-key MS-6 window-movetogroup-6
+
+unbind-mouse M-1
+unbind-mouse CM-1
+unbind-mouse M-2
+unbind-mouse M-3
+unbind-mouse CMS-3
+
+bind-mouse M-1 window-move
+bind-mouse M-3 window-resize
+bind-mouse MS-3 menu-exec
+
+command librewolf librewolf
+command urxvt urxvt
+command xclock xclock
+command xcalc xclock
+command spacefm spacefm
+command lxappearance lxappearance
