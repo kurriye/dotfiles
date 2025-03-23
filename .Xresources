@@ -1,9 +1,9 @@
 *font: xft:PxPlusIBMVGA8:style=regular:size=12:antialias=false 
 *boldFont: xft:PxPlusIBMVGA8:style=regular:size=12:antialias=false 
 *scrollBar: false
+*internalBorder: 10
 
 urxvt.iso14755: false
-urxvt.internalBorder: 10
 urxvt.keysym.Control-Shift-C: eval:selection_to_clipboard
 urxvt.keysym.Control-Shift-V: eval:paste_clipboard
 
