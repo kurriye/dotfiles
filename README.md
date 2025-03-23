@@ -1,2 +1,2 @@
 # unix-dotfiles
-dotfiles for OpenBSD
+dotfiles for my Arch Linux installation
