@@ -1,2 +1,2 @@
 # unix-dotfiles
-dotfiles for OpenBSD and Linux
+dotfiles for OpenBSD
