@@ -1,2 +1,2 @@
-# unix-dotfiles
-dotfiles for my Arch Linux installation
+# x220t dotfiles
+dotfiles for my x220t running Arch Linux
