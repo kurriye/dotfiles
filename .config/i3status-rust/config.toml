@@ -1,0 +1,52 @@
+cons_format = "{icon}"
+
+[theme]
+theme = "plain"
+[theme.overrides]
+idle_bg = "#0b0d0d"
+idle_fg = "#99ccbf"
+seperator_bg = "#99ccbf"
+seperator_fg = "#99ccbf"
+good_fg = "#99ccbf"
+warning_fg = "#99ccbf"
+critical_fg = "#99ccbf"
+
+[icons]
+icons = "none"
+[icons.overrides]
+bat = ["BAT", "|_|", "|=|", "FULL"]
+bat_charging = "|^| "
+
+[[block]]
+block = "backlight"
+
+[[block]]
+block = "net"
+format = " $icon $ssid "
+
+[[block]]
+block = "memory"
+format = " $icon $mem_used.eng(w:2) "
+
+[[block]]
+block = "music"
+format = " $icon {$combo.str(max_w:20) $play $next |}"
+player = "mpd"
+[[block.click]]
+button = "left"
+action = "play_pause"
+
+[[block]]
+block = "sound"
+[[block.click]]
+button = "left"
+cmd = "pavucontrol"
+
+[[block]]
+block = "battery"
+format = " $icon $percentage "
+
+[[block]]
+block = "time"
+interval = 5
+format = " $timestamp.datetime(f:'%a %m/%d %R') "
