@@ -10,7 +10,7 @@ cp -r .config ~/
 cp .wallpaper ~/
 
 echo 'Tweaking File System...'
-echo 'proc    /proc   proc    nosuid,nodev,noexec,hidepid=2,gid=proc  0   0' >> /etc/fstab
+sudo echo 'proc    /proc   proc    nosuid,nodev,noexec,hidepid=2,gid=proc  0   0' >> /etc/fstab
 
 echo 'Restarting system in...'
 time 1; echo 3
