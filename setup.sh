@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo 'Adding Software...'
-sudo pacman -S imv dosfstools mako exfat-utils noto-fonts-emoji noto-fonts-cjk unzip zathura-pdf-mupdf zathura  moreutils ffmpeg fzf intel-ucode btop abook neomutt neovim man-db yt-dlp ncmpcpp mpd mpc mpv bluez bluez-utils brightnessctl discord foot gimp i3status-rust lf mpv newsboat pavucontrol slurp grim sway swaybg swayidle swaylock wget wl-clipboard wmenu bsd-games git calcurse
+sudo pacman -S imv dosfstools mako exfat-utils noto-fonts-emoji noto-fonts-cjk unzip zathura-pdf-mupdf zathura moreutils ffmpeg fzf intel-ucode btop abook neomutt neovim man-db yt-dlp ncmpcpp mpd beets mpc mpv bluez bluez-utils brightnessctl discord foot gimp i3status-rust lf mpv newsboat pavucontrol slurp grim sway swaybg swayidle swaylock wget wl-clipboard wmenu bsd-games git calcurse
 sudo systemctl enable --now bluetooth
 systemctl enable --now --user mpd
 
