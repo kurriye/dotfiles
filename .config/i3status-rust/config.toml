@@ -1,4 +1,4 @@
-cons_format = "{icon}"
+icons_format = "{icon}"
 
 [theme]
 theme = "plain"
